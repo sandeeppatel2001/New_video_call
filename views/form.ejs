@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join Call Room</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+
+    <!-- Three.js library -->
+    <script src="https://threejs.org/build/three.js"></script>
+
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f8f9fa;
+      }
+
+      form {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        width: 100%;
+      }
+
+      h1 {
+        text-align: center;
+        color: #007bff;
+      }
+
+      button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="/" method="post">
+      <h1>Join the Call Room</h1>
+      <div class="form-group">
+        <label for="roomNo">Room No:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="roomNo"
+          name="roomNo"
+          placeholder="Enter Room No"
+          required
+        />
+      </div>
+      <button type="submit">Join Call</button>
+    </form>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Your Three.js script can go here for additional 3D effects -->
+  </body>
+</html>
+<!-- box-shadow: 0 0 17px rgb(255, 255, 255); /* Add a white shadow for 3D effect */
+        transition: transform 0.5s ease, box-shadow 0.5s ease; -->
