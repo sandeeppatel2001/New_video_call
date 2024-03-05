@@ -15,3 +15,4 @@ npm i
 ```
 npm start
 ```
+## After that join any room for video call
